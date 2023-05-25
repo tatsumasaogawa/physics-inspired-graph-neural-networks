@@ -1,1 +1,1 @@
-# Physics-Inspired Graph-Neural-Networks
+# Physics-Inspired Graph Neural Networks
