@@ -173,7 +173,7 @@ def get_gnn(n_nodes, gnn_hypers, opt_params, torch_device, torch_dtype):
 
 # Parent function to run GNN training given input config
 def run_gnn_training(q_torch, dgl_graph, net, embed, optimizer, number_epochs, tol, patience, prob_threshold, n, d, seed_value):
-    outfile = open('data/1gnn_n' + str(n) + '_d' + str(d) + '_seed' + str(seed_value) + '_history.dat', 'w')
+    outfile = open('data/2gnn_n' + str(n) + '_d' + str(d) + '_seed' + str(seed_value) + '_history.dat', 'w')
     outfile.write('# 01: epoch 02: loss 03: mc_size\n')
     outfile.close()
 
@@ -211,7 +211,7 @@ def run_gnn_training(q_torch, dgl_graph, net, embed, optimizer, number_epochs, t
         if epoch % 1000 == 0:
             print(f'Epoch: {epoch}, Loss: {loss_}')
 
-            outfile = open('data/1gnn_n' + str(n) + '_d' + str(d) + '_seed' + str(seed_value) + '_history.dat', 'a')
+            outfile = open('data/2gnn_n' + str(n) + '_d' + str(d) + '_seed' + str(seed_value) + '_history.dat', 'a')
 
             mc_size = -loss_func(bitstring.float(), q_torch)
             outfile.write(str(epoch) + ' ' + str(loss.item()) + ' ' + str(mc_size.item()) + '\n')
