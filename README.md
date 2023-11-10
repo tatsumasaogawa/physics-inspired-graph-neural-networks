@@ -5,7 +5,7 @@
 method name.ipynb や utils.py は [co-with-gnns-example] リポジトリの実装をベースにしていますが,
 Mean Field Approximation や 最大カット問題を追加で実装しています.
 
-実験結果は analysis.ipynb の図を参照してください.
+実験結果は [analysis.ipynb] の図を参照してください.
 
 <pre>
 pi-gnn/  
@@ -25,4 +25,5 @@ pi-gnn/
 
 ["Combinatorial Optimization with Physics-Inspired Graph Neural Networks"]: https://arxiv.org/abs/2107.01188
 [co-with-gnns-example]: https://github.com/amazon-science/co-with-gnns-example
+[analysis.ipynb]: https://github.com/tatsumasaogawa/pi-gnn/blob/main/sotsuron/analysis/analysis.ipynb
 [LICENSE]: https://github.com/tatsumasaogawa/pi-gnn/blob/main/LICENSE
