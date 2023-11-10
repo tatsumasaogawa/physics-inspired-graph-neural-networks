@@ -1,8 +1,8 @@
 # Physics-Inspired Graph Neural Networks
 
-"Combinatorial Optimization with Physics-Inspired Graph Neural Networks" (https://arxiv.org/abs/2107.01188) を元に進めている研究.
+["Combinatorial Optimization with Physics-Inspired Graph Neural Networks"] を元に進めている研究.
 
-method name.ipynb や utils.py は co-with-gnns-example リポジトリの実装 (https://github.com/amazon-science/co-with-gnns-example) をベースにしていますが,
+method name.ipynb や utils.py は [co-with-gnns-example] リポジトリの実装をベースにしていますが,
 Mean Field Approximation や 最大カット問題を追加で実装しています.
 
 実験結果は analysis.ipynb の図を参照してください.
@@ -21,4 +21,8 @@ pi-gnn/
 
 # ライセンス
 
-このプロジェクトのライセンスは MIT ライセンスです. 詳細は LICENSE をご覧ください.
+このプロジェクトのライセンスは MIT ライセンスです. 詳細は [LICENSE] をご覧ください.
+
+["Combinatorial Optimization with Physics-Inspired Graph Neural Networks"]: https://arxiv.org/abs/2107.01188
+[co-with-gnns-example]: https://github.com/amazon-science/co-with-gnns-example
+[LICENSE]: https://github.com/tatsumasaogawa/pi-gnn/blob/main/LICENSE
