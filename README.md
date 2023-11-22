@@ -19,7 +19,7 @@ pi-gnn/
           └─ <a href="https://github.com/tatsumasaogawa/pi-gnn/blob/main/sotsuron/analysis/analysis.ipynb">analysis.ipynb</a>: データ解析用の notebook
 </pre>
 
-# ライセンス
+## ライセンス
 
 このプロジェクトのライセンスは MIT ライセンスです. 詳細は [LICENSE] をご覧ください.
 
